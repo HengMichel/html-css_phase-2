@@ -203,7 +203,6 @@ section {
   display: flex;
 }
 .top {
-  
   text-align: center;
   height: 100px;
   background-color: rgb(236, 240, 175);
@@ -531,19 +530,16 @@ ul.lien1 li {
   font-family: oswald;
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
-  
 }
 
-.lien2{
+.lien2 {
   line-height: 50px;
   text-align: left;
-
-  
 }
-.lien2 a{
+.lien2 a {
   color: #2980b9;
 }
 .lien2 a:hover {
@@ -563,12 +559,12 @@ ul.lien3 li {
   text-decoration: none;
   font-size: 20px;
   border: 2px solid white;
-  font-family: oswald;  
+  font-family: oswald;
 }
-ul.lien3 li a{
-  color: gray; 
+ul.lien3 li a {
+  color: gray;
 }
-.lien3 a:hover{
+.lien3 a:hover {
   color: white;
   margin: 8px;
   padding: 5px 10px;
@@ -577,7 +573,6 @@ ul.lien3 li a{
   background: #069;
   transition: 1s ease-in;
   /* font-family: oswald; */
-
 }
 /* #menu nav a {
   padding: 10px;
@@ -591,3 +586,55 @@ ul.lien3 li a{
   color: #fff;
   background: #069;
 } */
+/* ******************liste******** */
+.listeNon {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.listeNonOrdonne i {
+  color: blue;
+  text-align: left;
+  text-size-adjust: 5px;
+}
+.listeNonOrdonne i:hover {
+  color: red;
+  font-size: 30px;
+}
+.listeOrdonne {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.listeOrd{
+  margin-left: 30px;
+}
+.listeImbri{
+  margin-left: 30px;
+}
+
+/* *******************Tableau****************** */
+
+.tableauSection1{
+  text-align: center;
+  
+}
+
+table{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+.date{
+  background-color: #c0d8f3;
+  
+}
+caption{
+  text-align: center;
+}
+
+table,
+tr,
+th, td {
+  border: 1px solid #348cf0;
+  border-collapse: collapse;
+
+}
