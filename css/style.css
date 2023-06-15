@@ -638,3 +638,25 @@ th, td {
   border-collapse: collapse;
 
 }
+
+/******************************* zone multimedia **********************************************************/
+/* ****************************************************************************************************** */
+
+.videoFond p {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  top: 500px;
+  left: 700px;
+  background-color: rgb(235, 232, 232);
+  width: 400px;
+  padding: 20px;
+
+}
+
+.audio source{
+  margin: auto;
+  width: 80%;
+}
