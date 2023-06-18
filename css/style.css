@@ -638,6 +638,46 @@ th, td {
   border-collapse: collapse;
 
 }
+/* ***********************************************FORMULAIRE********************************************** */
+/* ******************************************************************************************************* */
+
+.formulaire{
+  background-color: #2d3e50;
+  width: 600px;
+  min-height: 300px;
+  margin: auto;
+  border-radius: 10px;
+}
+.formulaire label ,p{
+  color: white;
+
+}
+.formulaire p {
+  justify-content: left ;
+}
+.cv{
+  color: white;
+}
+.form1{
+  width: 100%;
+  padding: 20px;
+}
+.form1 label{
+  width: 50%;
+  display: block;
+  float: left;
+}
+.form1 input {
+  width: 210px;
+  height: 25px;
+  padding-right: 50px;
+  float: left;
+  display: block;
+}
+.fruits{
+  display: flex;
+  text-align: left;
+}
 
 /******************************* zone multimedia **********************************************************/
 /* ****************************************************************************************************** */
@@ -648,15 +688,15 @@ th, td {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   position: absolute;
-  top: 500px;
-  left: 700px;
+  top: 580px;
+  left: 550px;
   background-color: rgb(235, 232, 232);
   width: 400px;
   padding: 20px;
-
 }
 
-.audio source{
-  margin: auto;
-  width: 80%;
+
+.audio {
+  text-align: center;
+  width: 100%;
 }

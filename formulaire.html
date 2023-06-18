@@ -66,12 +66,65 @@
     </nav>
 
     <main>
+        <h2>Formulaire</h2>
         <!--Contenu principal-->
-        <aside>
+        <!-- <aside> -->
             <!--Contenu secondaire-->
-        </aside>
+        <!-- </aside> -->
 
-        <section>
+        <section class="formulaire">
+            <form>
+                <div class="form1">
+                    <label for="">Pseudo *</label>
+                    <input type="text" placeholder="Votre pseudo">
+                </div>
+                <div class="form1">
+                    <label for="">Prénom</label>
+                    <input type="text" placeholder="Veuillez saisir votre prénom">
+                </div>
+                <div class="form1">
+                    <label for="password">Mot de passe</label>
+                <!-- J'ajoute dans for password pour quand je click sur le label, il sélectionne le input concerné -->
+                    <input type="password" id="password" name="password" placeholder="Mots de passe">
+                     <!-- Dans type je met password pour que ca ne m'affiche pas le mot de passe -->
+                </div>
+                <div class="form1">
+                    <label for="">Email</label>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="form1">
+                    <label for="">CV</label>
+                    <input type="file">
+                <!-- Dans le type je met file pour lafficher en tant que "Bouton"  et choisir un fichier-->
+                </div>
+                <p>Quels sont vos fruits préférés ?</p>
+                <div class="fruits">
+                    <input type="checkbox" class="checkbox">
+                    <label for="">Melon</label>
+
+                    <input type="checkbox" class="checkbox">
+                    <label for="">Pomme</label>
+
+                    <input type="checkbox" class="checkbox">
+                    <label for="">Banane</label>
+                </div>
+
+                <div class="form1">
+                    <label for="" class="Code">Code postal</label>
+                    <input type="text" placeholder="Code postal">
+                </div>
+                <div class="form1">
+                    <label for="">Message</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="clear"></div>
+                <div class="end">
+                    <input type="submit">
+                    <!-- dans type pour submit pour envoyer -->
+                    <button type="button">Annuler</button>
+                     <!-- dans type button pout annuler -->
+                </div>
+            </form>
             <!--Zone de contenu : titre, texte, regroupement thématique-->
             <div>
                 <!--Zone supplémentaire de contenu-->
