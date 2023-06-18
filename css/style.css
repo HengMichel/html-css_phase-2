@@ -648,15 +648,16 @@ th, td {
   margin: auto;
   border-radius: 10px;
 }
-.formulaire label ,p{
+.formulaire  label ,p{
   color: white;
-
 }
-.formulaire p {
-  justify-content: left ;
+.formulaire label{
+  width: 50%;
 }
-.cv{
-  color: white;
+p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 90px;
 }
 .form1{
   width: 100%;
@@ -674,11 +675,13 @@ th, td {
   float: left;
   display: block;
 }
+
 .fruits{
   display: flex;
-  text-align: left;
 }
-
+.end{
+  display: flex;
+}
 /******************************* zone multimedia **********************************************************/
 /* ****************************************************************************************************** */
 
